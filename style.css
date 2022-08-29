@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+#side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+    flex: auto;
+    background-color: #2e4052;
+    width: 500px;
+    color: #ffc857;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Papyrus, fantasy;
+}
+
+h1 {
+    padding: 20px;
+    padding-top: 20%;
+}
+#colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.color {
+    padding: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+}
+
+#main-bar {
+    background-color: #BDD9BF;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+#sketch-pad {
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: auto;
+    top: 50%;
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F1E8;
+}
+
+.grid-item {
+    height: 30px;
+    width: 30px;
+    border: 1px solid lightgray;
+}
