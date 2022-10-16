@@ -22,7 +22,18 @@ body {
 h1 {
     padding: 20px;
     padding-top: 20%;
+    margin-bottom: -10px;
 }
+
+#function{
+    display: flex;
+}
+
+.function {
+    border-radius: 10px;
+    padding: 10px;
+}
+
 #colors {
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +47,51 @@ h1 {
     border-radius: 50%;
     text-align: center;
     margin: 10px;
+    border-style: none;
+    border-color: #2e4052;
+    box-shadow: 0 3px 10px black;
+}
+
+[data-color="black"] {
+    background-color: black;
+}
+
+[data-color="red"] {
+    background-color: red;
+}
+
+[data-color="orange"] {
+    background-color: orange;
+}
+
+[data-color="yellow"] {
+    background-color: yellow;
+}
+
+[data-color="green"] {
+    background-color: green;
+}
+
+[data-color="blue"] {
+    background-color: blue;
+}
+
+[data-color="purple"] {
+    background-color: purple;
+}
+
+[data-color="rainbow"] {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+[data-color="white"] {
+    background-color: white;
+}
+
+#size {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 #main-bar {
@@ -48,21 +104,10 @@ h1 {
     flex-grow: 3;
 }
 
-#sketch-pad {
-    width: 520px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: auto;
-    top: 50%;
+.sketch-pad {
+    width: 500px;
+    height: 500px;
+    display: grid;
     border: 1px solid lightgray;
-    justify-content: center;
-    align-items: center;
     background-color: #E8F1E8;
-}
-
-.grid-item {
-    height: 30px;
-    width: 30px;
-    border: 1px solid lightgray;
 }
